@@ -73,6 +73,11 @@ def add_task():
         row = collection.add_row()
         row.name = request.json['title']
         print(row.name)
+        print(row.name)
+        print(row.name)
+        print(row.name)
+        print(row.name)
+
         row.status = 'Next Up'
         row.tags = [notion_api.config.imported_tag_url()]
 
